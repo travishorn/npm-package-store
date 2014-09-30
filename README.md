@@ -6,7 +6,8 @@ A web app that displays updates for your globally installed NPM modules. Inspire
 
 ## Installation
 
-    >npm install npm-package-store
+    >git clone https://github.com/travishorn/npm-package-store.git
+    >cd npm-package-store
     >npm start
 
 Then just go to http://127.0.0.1:3000
@@ -16,6 +17,7 @@ You can modify the port NPM Package Store runs on with the PORT environment vari
 ## To do
 
 - Make into a binary that can be installed and executed globally
+- Show change log if updates are available
 - Search through installed modules
 - Search and install modules from NPM registry
 - Uninstall currently installed modules

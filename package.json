@@ -1,6 +1,6 @@
 {
   "name": "npm-package-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A web app that displays updates for your globally installed NPM modules.",
   "main": "app.js",
   "author": "Travis Horn",
