@@ -19,7 +19,8 @@ router.get('/', function(req, res) {
 
           module.description = registry.description;
           module._id = registry._id;
-          module.author = registry.author.name;
+          if (registry.author)
+            module.author = registry.author.name;
 
           if (module.installedVersion === registry['dist-tags'].latest) {
             upToDate.push(module);
