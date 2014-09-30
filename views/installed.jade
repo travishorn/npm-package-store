@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  div.row
+    div.col-xs-11
+      h2 Updates
+    div.col-xs-1.text-right
+      h2= updates.length
+
+  for module in updates
+    div.panel.panel-default.updates
+      div.panel-heading
+        h3.panel-title
+          a(href='https://www.npmjs.org/package/' + module._id)= module.name
+          a.btn.btn-sm.pull-right(href='/update/' + module._id, data-loading-text='Updating...') Update
+      div.panel-body
+        div.module-author= module.author
+        div.module-description= module.description
+
+  div.row
+    div.col-xs-11
+      h2 Up to date
+    div.col-xs-1.text-right
+      h2= upToDate.length
+
+  for module in upToDate
+    div.panel.panel-default
+      div.panel-heading
+        h3.panel-title
+          a(href='https://www.npmjs.org/package/' + module._id)= module.name
+      div.panel-body
+        div.module-author= module.author
+        div.module-description= module.description
+
+block scripts
+  script(src='/js/installed.js')

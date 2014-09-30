@@ -1,0 +1,19 @@
+{
+  "name": "npm-package-store",
+  "version": "1.0.0",
+  "description": "A web app that displays updates for your globally installed NPM modules.",
+  "author": "Travis Horn",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "body-parser": "~1.8.1",
+    "cookie-parser": "~1.3.3",
+    "debug": "~2.0.0",
+    "express": "~4.9.0",
+    "jade": "~1.6.0",
+    "morgan": "~1.3.0",
+    "request": "^2.44.0"
+  }
+}

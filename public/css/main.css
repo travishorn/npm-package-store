@@ -1,0 +1,47 @@
+body {
+  padding-top: 50px;
+}
+
+.header,
+.header .navbar-nav li a {
+  background-color: #96AA39;
+  color: #FFF;
+}
+
+.header .navbar-nav li.active a,
+.header .navbar-nav li a:hover,
+.header .navbar-nav li.active a:hover {
+  background-color: #819131;
+  color: #FFF;
+}
+
+.header .navbar-brand {
+  color: #FFF;
+}
+
+.panel-body {
+  padding: 3px 15px 10px 15px;
+}
+
+.module-author {
+  font-size: 11px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.panel-title a {
+  font-size: 22px;
+  color: #428BCA;
+}
+
+.panel-title a.btn {
+  font-size: 12px;
+  color: #FFF;
+  background-color: #96AA39;
+}
+
+.panel-title a.btn:hover {
+  font-size: 12px;
+  color: #FFF;
+  background-color: #819131;
+}
