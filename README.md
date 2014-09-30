@@ -1,8 +1,8 @@
 # NPM Package Store
 
-A web app that displays updates for your globally installed NPM modules. Inspired by [Go Package Store](https://github.com/shurcooL/Go-Package-Store)
+A web app that displays updates for your globally installed NPM modules. Inspired by [Go Package Store](https://github.com/shurcooL/Go-Package-Store).
 
-![Screenshot](http://i.imgur.com/RIklRmR.png)
+![Screenshot](http://i.imgur.com/MIvjI7t.png)
 
 ## Installation
 
