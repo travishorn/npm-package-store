@@ -4,7 +4,7 @@ var childProcess = require('child_process');
 var request = require('request');
 
 router.get('/', function(req, res) {
-  childProcess.exec('npm ls -g --json', function(err, stdout) {
+  childProcess.exec('npm ls -g --json', { maxBuffer: 1024 * 1024 }, function(err, stdout) {
     var dependencies = JSON.parse(stdout).dependencies;
     var totalModules = 0;
     var indexedModules = 0;
