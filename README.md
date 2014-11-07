@@ -8,6 +8,7 @@ A web app that displays updates for your globally installed NPM modules. Inspire
 
     >git clone https://github.com/travishorn/npm-package-store.git
     >cd npm-package-store
+    >npm install
     >npm start
 
 Then just go to http://127.0.0.1:3000
