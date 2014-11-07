@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "A web app that displays updates for your globally installed NPM modules.",
   "main": "app.js",
+  "preferGlobal": "true",
   "author": "Travis Horn",
   "license": "MIT",
   "repository": {
@@ -23,5 +24,8 @@
   },
   "engines": {
     "node": ">= 0.10.0"
+  },
+  "bin": {
+    "npmstore": "./app.js"
   }
 }
