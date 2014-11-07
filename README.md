@@ -1,6 +1,6 @@
-# NPM Package Store
+# npm Package Store
 
-A web app that displays updates for your globally installed NPM modules. Inspired by [Go Package Store](https://github.com/shurcooL/Go-Package-Store).
+A web app that displays updates for your globally installed npm modules. Inspired by [Go Package Store](https://github.com/shurcooL/Go-Package-Store).
 
 ![Screenshot](http://i.imgur.com/MIvjI7t.png)
 
@@ -18,13 +18,13 @@ or
 
 Then just go to http://127.0.0.1:3000
 
-You can modify the port NPM Package Store runs on with the PORT environment variable.
+You can modify the port npm Package Store runs on with the PORT environment variable.
 
 ## To do
 
 - Show change log if updates are available
 - Search through installed modules
-- Search and install modules from NPM registry
+- Search and install modules from npm registry
 - Uninstall currently installed modules
 
 ## License
