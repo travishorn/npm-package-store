@@ -22,10 +22,12 @@ router.get('/', function(req, res) {
           if (registry.author)
             module.author = registry.author.name;
 
-          if (module.installedVersion === registry['dist-tags'].latest) {
+          if (registry['dist-tags'] && module.installedVersion === registry['dist-tags'].latest) {
             upToDate.push(module);
-          } else {
+          } else if (registry['dist-tags']) {
             updates.push(module);
+          } else {
+            console.warn('Skipped package ' + module.name + ' because it does not list a version!');
           }
 
           indexedModules += 1;
