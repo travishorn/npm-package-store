@@ -46,5 +46,5 @@ app.use(function(err, req, res) {
 });
 
 app.listen(app.get('port'), function() {
-  console.log('NPM Package Store listening on port %s.', app.get('port'));
+  console.log('npm Package Store listening on port %s.', app.get('port'));
 });
