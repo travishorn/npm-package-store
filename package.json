@@ -1,6 +1,6 @@
 {
   "name": "npm-package-store",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A web app that displays updates for your globally installed npm modules.",
   "main": "app.js",
   "preferGlobal": "true",
